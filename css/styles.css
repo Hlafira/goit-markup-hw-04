@@ -304,8 +304,9 @@ a {
 .overlay {
   padding-top: 200px;
   padding-bottom: 200px;
-
   max-width: 1600px;
+  margin-right: uto;
+  margin-left: auto;
   background-color: var(--hero-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/index/hero/background.jpg');
@@ -364,6 +365,7 @@ a {
 
 .advantage-item-icon {
   display: block;
+  box-sizing: content-box;
   padding: 25px 100px;
   margin-bottom: 30px;
 
