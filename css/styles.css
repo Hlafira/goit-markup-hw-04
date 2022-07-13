@@ -305,7 +305,7 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
-  margin-right: uto;
+  margin-right: auto;
   margin-left: auto;
   background-color: var(--hero-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
