@@ -140,12 +140,14 @@ body {
 }
 
 .socials-link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
 
   color: var(--icon-color);
-  background-color: var(--secondary-color);
-  border-radius: 50%;
+  border-radius: 44px;
   cursor: pointer;
 }
 
@@ -225,7 +227,7 @@ a {
 .header-contact-link {
   color: var(--text-color);
   display: flex;
-  align-items: top;
+  align-items: center;
 }
 
 .header-icon {
@@ -364,9 +366,10 @@ a {
 /*advanteges iconc icons */
 
 .advantage-item-icon {
-  display: block;
-  box-sizing: content-box;
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
 
   background: var(--secondary-color);
@@ -468,7 +471,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 38px;
   min-width: 170px;
   min-height: 92px;
 
